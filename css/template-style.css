@@ -8,7 +8,7 @@ body {
 }
 p {
   color: #777;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.6rem;
 }
 a, a:link, a:visited, a:hover, a:active { 
@@ -21,7 +21,7 @@ color: #777;
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;                                         
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-top: 0;
 }
 h1, .h1 {font-size: 1.8rem;}
@@ -586,7 +586,7 @@ visibility:hidden;
 }
 .margin-top-0,.margin-top-10,.margin-top-15,.margin-top-20,.margin-top-30,.margin-top-40,.margin-top-50,.margin-top-60,.margin-top-70,.margin-top-80,
 .margin-bottom-0,.margin-bottom-10,.margin-bottom-15,.margin-bottom-20,.margin-bottom-30,.margin-bottom-40,.margin-bottom-50,.margin-bottom-60,.margin-bottom-70,.margin-bottom-80,
-.margin-top-bottom-0,.margin-top-bottom-10,.margin-top-bottom-15,.margin-top-bottom-20,.margin-top-bottom-30,.margin-top-bottom-40,.margin-top-bottom-50,.margin-top-bottom-60,.margin-top-bottom-70,.margin-top-bottom-80 {display: block;}
+.margin-top-bottom-0,.margin-top-bottom-10,.margin-top-bottom-15,.margin-top-bottom-20,.margin-top-bottom-30,.margin-top-bottom-40,.margin-top-bottom-50,.margin-top-bottom-60,.margin-top-bottom-70,.margin-top-bottom-80 {display: inline-block;}
 .margin-top-0 {margin-top: 0 !important;}
 .margin-top-10 {margin-top: 10px !important;}
 .margin-top-15 {margin-top: 15px !important;} 
@@ -856,10 +856,10 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
     position: absolute;
     width: 40%;
     height: 40%;
-    top: 30px;
+    top: 10px;
     right: 10px;
     background: url(../img/featured-description.png);
-    padding: 10px 10px 20px 20px;
+    padding: 0px;
     box-sizing: border-box;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -871,8 +871,7 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 
 /* -1366 version */
 @media screen and (max-width:1366px) {
-    .text-title { font-size: 30px;}
-    .text { font-size: 20px;}
+    
     .margin-xl-bottom {
         margin-bottom: 1.25rem !important;
         display: block;
