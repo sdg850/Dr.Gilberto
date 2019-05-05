@@ -2,6 +2,10 @@
 body {
   background: #fff;
 }
+
+.t{
+  font-size: 2.5vw;
+}
 p {
   color: #777;
   font-size: 1.5rem;
@@ -58,6 +62,9 @@ h6.headline, .h6.headline {
   font-size: 16px !important;
   line-height: 1.4;
 }
+
+
+
 .text-size-20, .text-xxl-size-20, .text-size-25, .text-xxl-size-25,.text-size-30, .text-xxl-size-30,.text-size-40, .text-xxl-size-40,.text-size-50, .text-xxl-size-50, .text-size-60, .text-xxl-size-60,.text-size-70, .text-xxl-size-70, .text-size-80, .text-xxl-size-80, .text-size-90, .text-xxl-size-90, .text-size-100, .text-xxl-size-100 {line-height: 1.4;}
 .text-size-20, .text-xxl-size-20 {font-size: 20px !important;}
 .text-size-25, .text-xxl-size-25 {font-size: 25px !important;}
@@ -864,6 +871,8 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 
 /* -1366 version */
 @media screen and (max-width:1366px) {
+    .text-title { font-size: 30px;}
+    .text { font-size: 20px;}
     .margin-xl-bottom {
         margin-bottom: 1.25rem !important;
         display: block;
@@ -985,6 +994,8 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
     .text-xl-size-100 {font-size: 100px !important;}  
 }
 @media screen and (max-width:1140px) {
+
+    
     .margin-l-bottom {
         margin-bottom: 1.25rem !important;
         display: block;
@@ -1117,6 +1128,9 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 
 /* -768px version */
 @media screen and (max-width:768px) {
+
+    .text-title { font-size: 20px;}
+    .text { font-size: 10px;}
     .top-nav .right {
       float: none;
     }
@@ -1296,6 +1310,10 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 
 /* -480px version */
 @media screen and (max-width:480px) {
+
+   .text-title { font-size: 10px;}
+    .text { font-size: 5px;}
+
     .top-bar .right {
       float: none;
     }
@@ -1482,6 +1500,8 @@ form.customform input:hover, form.customform textarea:hover, form.customform sel
 }
 
 @media screen and (max-width:768px) {
+
+   .text { font-size: 20px;}
   .block-same-height {
     display: block;
   }
@@ -1755,6 +1775,10 @@ section, header {
 /* Portfolio Tabs */
 .tab-nav.line {
   padding-bottom: 2rem;
+}
+
+
+
 }
 .tab-item {
   background: none;
